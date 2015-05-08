@@ -4,3 +4,7 @@
 
 /PDFCreator/obj/Debug
 *.suo
+*.ncrunchproject
+*.cache
+*.force
+*.ncrunchsolution

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFCreator.Before", "PDFCreator\PDFCreator.Before.csproj", "{A9F3688F-4050-4E24-B22A-A81B3D41F2C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFCreator", "PDFCreator\PDFCreator.csproj", "{A9F3688F-4050-4E24-B22A-A81B3D41F2C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFCreator.Refactored", "PDFCreator.Refactored\PDFCreator.Refactored.csproj", "{B997EFFB-53F2-4492-AB3F-76D93B1229E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFCreator.Refactored.UnitTest", "PDFCreator.Refactored.UnitTest\PDFCreator.Refactored.UnitTest.csproj", "{6563CCC7-F0F1-4A6B-8411-502309E8FBBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A9F3688F-4050-4E24-B22A-A81B3D41F2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9F3688F-4050-4E24-B22A-A81B3D41F2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9F3688F-4050-4E24-B22A-A81B3D41F2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B997EFFB-53F2-4492-AB3F-76D93B1229E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B997EFFB-53F2-4492-AB3F-76D93B1229E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B997EFFB-53F2-4492-AB3F-76D93B1229E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B997EFFB-53F2-4492-AB3F-76D93B1229E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6563CCC7-F0F1-4A6B-8411-502309E8FBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6563CCC7-F0F1-4A6B-8411-502309E8FBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6563CCC7-F0F1-4A6B-8411-502309E8FBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6563CCC7-F0F1-4A6B-8411-502309E8FBBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

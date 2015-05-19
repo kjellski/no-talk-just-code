@@ -106,6 +106,6 @@ namespace PDFCreator.Refactored.UnitTest
             Assert.DoesNotThrow(() => _jobCleanUp.DoCleanUp());
         }
 
-        //TODO Delete folder if empty and not spool
+        //TODO Delete folder if empty and not spool: doppelt testen? oder nur einmal? 
     }
 }
